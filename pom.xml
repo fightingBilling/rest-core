@@ -5,6 +5,28 @@
 	<artifactId>restful</artifactId>
 	<version>1.1.14</version>
 	<name>RESTful核心通用部分</name>
+	
+	<description>RESTful核心通用部分</description>
+    <url>https://github.com/love-somnus/restful</url>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git@github.com:love-somnus/restful.git</connection>
+        <developerConnection>scm:git:git@github.com:love-somnus/restful.git</developerConnection>
+        <url>git@github.com:love-somnus/restful.git</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>restful</id>
+            <name>Somnus</name>
+            <email>928200207@qq.com</email>
+        </developer>
+    </developers>
 
 	<!-- jar资源版本号设置 -->
 	<properties>
