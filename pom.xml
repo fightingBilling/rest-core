@@ -167,12 +167,12 @@
 		<repository>
 			<id>release</id>
 			<name>release repository</name>
-			<url>http://192.168.12.216:2081/nexus/content/repositories/thirdparty/</url>
+			<url>http://localhost:8081/nexus/content/repositories/thirdparty/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshot repository</name>
-			<url>http://192.168.12.216:2081/nexus/content/repositories/snapshots/</url>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
