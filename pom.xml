@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.somnus.restful.core</groupId>
-	<artifactId>restful</artifactId>
-	<version>1.1.14</version>
+	<groupId>com.somnus.rest.core</groupId>
+	<artifactId>rest-core</artifactId>
+	<version>3.2.0</version>
 	<name>RESTful核心通用部分</name>
 	
 	<description>RESTful核心通用部分</description>
-    <url>https://github.com/love-somnus/restful</url>
+    <url>https://github.com/love-somnus/rest-core</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -16,13 +16,13 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:love-somnus/restful.git</connection>
-        <developerConnection>scm:git:git@github.com:love-somnus/restful.git</developerConnection>
-        <url>git@github.com:love-somnus/restful.git</url>
+        <connection>scm:git:git@github.com:love-somnus/rest-core.git</connection>
+        <developerConnection>scm:git:git@github.com:love-somnus/rest-core.git</developerConnection>
+        <url>git@github.com:love-somnus/rest-core.git</url>
     </scm>
     <developers>
         <developer>
-            <id>restful</id>
+            <id>rest-core</id>
             <name>Somnus</name>
             <email>928200207@qq.com</email>
         </developer>
