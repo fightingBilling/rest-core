@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 /**
  * JsonUtils
  *
- * @author levis
+ * @author Somnus
  * @version 1.0 13-9-29
  */
 public class JsonUtils {

@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
 
 /**
  * @Description 
- * @author caobin
+ * @author Somnus
  * @date 2013-4-8
  * @version 1.0
  */
@@ -43,7 +43,7 @@ public class ResourceJsonInvocationHandler implements InvocationHandler {
 	/**
 	 * @Description 获取RESTful客户端
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	private Client getClient(){
 		if(client == null){

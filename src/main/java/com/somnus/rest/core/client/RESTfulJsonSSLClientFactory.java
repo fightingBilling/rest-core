@@ -7,7 +7,7 @@ import com.somnus.rest.core.client.proxy.ResourceJsonSSLInvocationHandler;
 
 /**
  * @Description 
- * @author caobin
+ * @author Somnus
  * @date 2014-8-14
  * @version 1.0
  */
@@ -22,7 +22,7 @@ public class RESTfulJsonSSLClientFactory {
 	 * @param interfaceType 接口类型
 	 * @param baseUrl 基础url
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public static<T> T createClient(Class<T> interfaceType, String baseUrl){
 		ParameterBuilder builder = ParameterBuilder.getInstance();
@@ -35,7 +35,7 @@ public class RESTfulJsonSSLClientFactory {
 	 * @param interfaceType 接口类型
 	 * @param param 参数
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	private static <C> C proxyClient(Class<C> interfaceType, Parameter param){
 		Class<?>[] interfaces = new Class<?>[]{interfaceType};

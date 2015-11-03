@@ -12,7 +12,7 @@ import com.google.protobuf.GeneratedMessage.Builder;
 
 /**
  * @Description 自动填充头部字段
- * @author caobin
+ * @author Somnus
  * @date 2013-4-8
  * @version 1.0
  */
@@ -21,7 +21,7 @@ public class HeadMerger {
 	/**
 	 * @Description 对Head.Builder进行部分字段的设值
 	 * @param builder
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public static void merge(Builder<?> builder){
 		try {

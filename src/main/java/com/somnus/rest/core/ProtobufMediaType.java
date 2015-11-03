@@ -2,7 +2,7 @@ package com.somnus.rest.core;
 
 /**
  * @Description 基于Google Protocol Buffer的MediaType
- * @author caobin
+ * @author Somnus
  * @date 2013-4-8
  * @version 1.0
  */

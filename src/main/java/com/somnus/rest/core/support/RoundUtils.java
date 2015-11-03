@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * RoundUtils
  *
- * @author levis
+ * @author Somnus
  * @version 1.0 14-2-13
  */
 public  class RoundUtils {

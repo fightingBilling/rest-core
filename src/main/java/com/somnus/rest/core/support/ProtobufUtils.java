@@ -28,7 +28,7 @@ import com.somnus.rest.core.support.ProtobufUtils.TextFormat.ParseException;
 
 /**
  * @Description Google Protocol Buffer工具类
- * @author caobin
+ * @author Somnus
  * @date 2013-4-9
  * @version 1.0
  */
@@ -38,7 +38,7 @@ public class ProtobufUtils {
 	 * @Description 打印单行Unicode报文
 	 * @param message
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public static String printToShortUnicodeString(MessageOrBuilder message){
 		return TextFormat.shortUnicodeDebugString(message);
@@ -49,7 +49,7 @@ public class ProtobufUtils {
 	 * @param message 报文文本
 	 * @param type 报文对象类型
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	@SuppressWarnings("unchecked")
 	public static<M> M deserializeFromString(CharSequence message, Class<? extends Message> type){

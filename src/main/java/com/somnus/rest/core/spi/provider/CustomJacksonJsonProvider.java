@@ -18,7 +18,7 @@ import java.lang.reflect.Type;
 /**
  * CustomJacksonJsonProvider
  *
- * @author levis
+ * @author Somnus
  * @version 1.0 13-12-3
  */
 @Provider

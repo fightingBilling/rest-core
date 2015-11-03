@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Description 
- * @author caobin
+ * @author Somnus
  * @date 2013-4-8
  * @version 1.0
  */
@@ -23,7 +23,7 @@ public class RESTfulJsonClientFactory {
 	 * @param interfaceType 接口类型
 	 * @param baseUrl 基础url
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public static<T> T createClient(Class<T> interfaceType, String baseUrl){
 		ParameterBuilder builder = ParameterBuilder.getInstance();
@@ -38,7 +38,7 @@ public class RESTfulJsonClientFactory {
 	 * @param connectionTimeout 连接超时(in million seconds)
 	 * @param readTimeout 读取超时(in million seconds)
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public static<T> T createClient(Class<T> interfaceType, String baseUrl, int connectionTimeout, int readTimeout){
 		ParameterBuilder builder = ParameterBuilder.getInstance();
@@ -53,7 +53,7 @@ public class RESTfulJsonClientFactory {
 	 * @param interfaceType 接口类型
 	 * @param param 参数
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	private static <C> C proxyClient(Class<C> interfaceType, Parameter param){
 		Class<?>[] interfaces = new Class<?>[]{interfaceType};

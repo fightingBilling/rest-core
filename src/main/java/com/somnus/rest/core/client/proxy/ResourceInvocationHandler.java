@@ -18,7 +18,7 @@ import com.sun.jersey.api.client.config.ClientConfig;
 
 /**
  * @Description 
- * @author caobin
+ * @author Somnus
  * @date 2013-4-8
  * @version 1.0
  */

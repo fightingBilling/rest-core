@@ -7,7 +7,7 @@ import org.springframework.beans.factory.InitializingBean;
 /**
  * RestfulFactoryBean
  *
- * @author levis
+ * @author Somnus
  * @version 1.0 13-6-4
  */
 public class RestfulFactoryBean implements FactoryBean<Object>, InitializingBean {

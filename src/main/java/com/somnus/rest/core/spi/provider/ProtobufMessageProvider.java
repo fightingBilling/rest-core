@@ -25,7 +25,7 @@ import com.google.protobuf.Message.Builder;
 
 /**
  * @Description 基于Google Protocol Buffer的Provider
- * @author caobin
+ * @author Somnus
  * @date 2013-4-8
  * @version 1.0
  */

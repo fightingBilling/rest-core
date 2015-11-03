@@ -52,7 +52,7 @@ public class ResourceJsonSSLInvocationHandler implements InvocationHandler {
 	/**
 	 * @Description 获取RESTful客户端(ssl)
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 * @throws Exception 
 	 */
 	private Client getSSLClient() throws Exception {
