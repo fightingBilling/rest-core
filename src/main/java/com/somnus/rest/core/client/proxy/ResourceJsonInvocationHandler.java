@@ -6,14 +6,10 @@ import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.config.ClientConfig;
 
-import org.apache.commons.lang3.reflect.MethodUtils;
-
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response.Status;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-
-import static com.somnus.rest.core.ProtobufMediaType.APPLICATION_X_PROTOBUF;
 
 /**
  * @Description 
@@ -45,7 +41,7 @@ public class ResourceJsonInvocationHandler implements InvocationHandler {
 	}
 	
 	/**
-	 * @Description 鑾峰彇RESTful瀹㈡埛绔�
+	 * @Description 获取RESTful客户端
 	 * @return
 	 * @author caobin
 	 */
