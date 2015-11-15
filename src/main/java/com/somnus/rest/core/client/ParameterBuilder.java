@@ -9,7 +9,7 @@ public class ParameterBuilder {
 	/**
 	 * @Description 构建参数Builder对象
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public static ParameterBuilder getInstance(){
 		return new ParameterBuilder();
@@ -27,7 +27,7 @@ public class ParameterBuilder {
 	 * @Description 设置连接超时
 	 * @param connectionTimeout
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public ParameterBuilder setConnectionTimeout(int connectionTimeout){
 		parameter.setConnectionTimeout(connectionTimeout);
@@ -38,7 +38,7 @@ public class ParameterBuilder {
 	 * @Description 设置读取超时
 	 * @param readTimeout
 	 * @return
-	 * @author caobin
+	 * @author Somnus
 	 */
 	public ParameterBuilder setReadTimeout(int readTimeout){
 		parameter.setReadTimeout(readTimeout);
