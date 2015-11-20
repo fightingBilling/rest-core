@@ -15,13 +15,13 @@ import java.text.SimpleDateFormat;
  */
 public class JsonUtils {
 
-    private static final String DATE_FORMAT="yyyy-MM-dd HH:mm:ss";
+    private static final String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";
 
     private static ObjectMapper objectMapper;
 
     public static String toString(Object obj){
-        if(objectMapper==null){
-            objectMapper= getObjectMapper();
+        if(objectMapper == null){
+            objectMapper = getObjectMapper();
         }
         try{
             return objectMapper.writeValueAsString(obj);
@@ -31,7 +31,7 @@ public class JsonUtils {
     }
 
     private synchronized static ObjectMapper  getObjectMapper(){
-        ObjectMapper mapper=new ObjectMapper();
+        ObjectMapper mapper = new ObjectMapper();
         //serialization
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
         mapper.enable(SerializationFeature.WRITE_BIGDECIMAL_AS_PLAIN);
