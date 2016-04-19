@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.somnus.rest.core</groupId>
 	<artifactId>rest-core</artifactId>
-	<version>3.2.0</version>
+	<version>3.2.0-SNAPSHOT</version>
 	<name>RESTful核心通用部分</name>
 	
 	<description>RESTful核心通用部分</description>
@@ -165,14 +165,14 @@
 
 	<distributionManagement>
 		<repository>
-			<id>release</id>
+			<id>somnus-release</id>
 			<name>release repository</name>
-			<url>http://localhost:8081/nexus/content/repositories/thirdparty/</url>
+			<url>http://maven.wozsz.com:88/content/repositories/thirdparty/</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshot</id>
+			<id>somnus-snapshot</id>
 			<name>snapshot repository</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://maven.wozsz.com:88/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
