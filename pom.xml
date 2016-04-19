@@ -167,12 +167,12 @@
 		<repository>
 			<id>somnus-release</id>
 			<name>release repository</name>
-			<url>http://maven.wozsz.com:88/content/repositories/thirdparty/</url>
+			<url>http://maven.wozsz.com/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>somnus-snapshot</id>
 			<name>snapshot repository</name>
-			<url>http://maven.wozsz.com:88/content/repositories/snapshots/</url>
+			<url>http://maven.wozsz.com/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
