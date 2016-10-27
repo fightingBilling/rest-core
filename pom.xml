@@ -5,28 +5,28 @@
 	<artifactId>rest-core</artifactId>
 	<version>3.2.0-SNAPSHOT</version>
 	<name>RESTful核心通用部分</name>
-	
+
 	<description>RESTful核心通用部分</description>
-    <url>https://github.com/love-somnus/rest-core</url>
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-    <scm>
-        <connection>scm:git:git@github.com:love-somnus/rest-core.git</connection>
-        <developerConnection>scm:git:git@github.com:love-somnus/rest-core.git</developerConnection>
-        <url>git@github.com:love-somnus/rest-core.git</url>
-    </scm>
-    <developers>
-        <developer>
-            <id>rest-core</id>
-            <name>Somnus</name>
-            <email>928200207@qq.com</email>
-        </developer>
-    </developers>
+	<url>https://github.com/love-somnus/rest-core</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:git:git@github.com:love-somnus/rest-core.git</connection>
+		<developerConnection>scm:git:git@github.com:love-somnus/rest-core.git</developerConnection>
+		<url>git@github.com:love-somnus/rest-core.git</url>
+	</scm>
+	<developers>
+		<developer>
+			<id>rest-core</id>
+			<name>Somnus</name>
+			<email>928200207@qq.com</email>
+		</developer>
+	</developers>
 
 	<!-- jar资源版本号设置 -->
 	<properties>
@@ -35,11 +35,11 @@
 		<!--###################### Google Protocol Buffer ###################### -->
 		<protobuf.version>2.5.0</protobuf.version>
 		<!--###################### apache-commons ###################### -->
-        <commons.lang3.version>3.1</commons.lang3.version>
+		<commons.lang3.version>3.1</commons.lang3.version>
 		<!--###################### 日志 ###################### -->
 		<slf4j.version>1.7.2</slf4j.version>
-        <!--###################### json ###################### -->
-        <jackson.version>2.4.2</jackson.version>
+		<!--###################### json ###################### -->
+		<jackson.version>2.4.2</jackson.version>
 		<!--###################### 插件 ###################### -->
 		<jdk.version>1.7</jdk.version>
 	</properties>
@@ -65,31 +65,31 @@
 			<version>${protobuf.version}</version>
 		</dependency>
 
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
 
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
 
-        <dependency>
-            <groupId>com.fasterxml.jackson.jaxrs</groupId>
-            <artifactId>jackson-jaxrs-json-provider</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.jaxrs</groupId>
+			<artifactId>jackson-jaxrs-json-provider</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
 
 
 		<!--###################### apache-commons ###################### -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons.lang3.version}</version>
-        </dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons.lang3.version}</version>
+		</dependency>
 
 		<!--###################### slf4j ###################### -->
 		<dependency>
@@ -111,17 +111,17 @@
 			<version>4.10</version>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>3.1.1.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>3.1.1.RELEASE</version>
-        </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>3.1.1.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>3.1.1.RELEASE</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<!-- 限制proto资源文件拷贝至classpath -->
@@ -163,16 +163,30 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>aliyun</id>
+			<name>aliyun</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<distributionManagement>
 		<repository>
 			<id>somnus-release</id>
 			<name>release repository</name>
-			<url>http://maven.wozsz.com/content/repositories/releases/</url>
+			<url>http://maven.aliyun.com/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>somnus-snapshot</id>
 			<name>snapshot repository</name>
-			<url>http://maven.wozsz.com/content/repositories/snapshots/</url>
+			<url>http://maven.aliyun.com/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
