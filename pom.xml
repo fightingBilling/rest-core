@@ -42,6 +42,7 @@
 		<jackson.version>2.4.2</jackson.version>
 		<!--###################### 插件 ###################### -->
 		<jdk.version>1.7</jdk.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
@@ -143,6 +144,7 @@
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
 					<showWarnings>true</showWarnings>
 				</configuration>
 			</plugin>
